@@ -16,17 +16,19 @@
         <fieldset>
             <div class="form-group">
                 <label for="userName">Nazwa</label>
-                <input name="userName" type="text" id="userName" class="form-control" placeholder="Nazwa użytkownika">
+                <input name="userName" type="text" id="userName"
+                   class="form-control" placeholder="Nazwa użytkownika" value="${userName}">
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input name="email" type="email" id="email" class="form-control" placeholder="Email użytkownika">
+                <input name="email" type="email" id="email"
+                   class="form-control" placeholder="Email użytkownika" value="${email}">
             </div>
             <div class="form-group">
                 <label for="password">Nazwa</label>
                 <input name="password" type="password" id="password" class="form-control" placeholder="Hasło użytkownika">
             </div>
-            <button type="submit" class="btn btn-primary">${action}</button>
+            <button name="id" value="${id}" type="submit" class="btn btn-primary">${action}</button>
         </fieldset>
     </form>
 </body>
