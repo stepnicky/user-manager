@@ -83,25 +83,26 @@
                                         </div>
                                     </div>
                                 </li>
-                                <c:forEach items="${users}" var="user"></c:forEach>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            ${user.id}
+                                <c:forEach items="${users}" var="user">
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                ${user.id}
+                                            </div>
+                                            <div class="col-4">
+                                                ${user.userName}
+                                            </div>
+                                            <div class="col-4">
+                                                ${user.email}
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="/users/delete">Usuń </a>
+                                                <a href="/users/edit">Edytuj </a>
+                                                <a href="/users/show">Pokaż</a>
+                                            </div>
                                         </div>
-                                        <div class="col-4">
-                                            ${user.userName}
-                                        </div>
-                                        <div class="col-5">
-                                            ${user.email}
-                                        </div>
-                                        <div class="col-2">
-                                            <a href="/users/delete">Usuń </a>
-                                            <a href="/users/edit">Edytuj </a>
-                                            <a href="/users/show">Pokaż</a>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                </c:forEach>
                             </ul>
                         </div>
                     </div>
