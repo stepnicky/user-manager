@@ -57,7 +57,7 @@
                         <div class="d-sm-flex align-items-center justify-content-between mb-4">
                             <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                             <a href="/users/list" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                                <i class="fa-solid fa-list text-white-50"></i> Lista użytkowników</a>
+                                <i class="fas fa-solid fa-list text-white-50"></i> Lista użytkowników</a>
                         </div>
 
                         <div class="card shadow mb-4">
