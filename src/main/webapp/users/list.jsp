@@ -97,7 +97,7 @@
                                             </div>
                                             <div class="col-3">
                                                 <a href="/users/delete">Usuń </a>
-                                                <a href="/users/edit">Edytuj </a>
+                                                <a href="/users/edit?id=${user.id}">Edytuj </a>
                                                 <a href="/users/show">Pokaż</a>
                                             </div>
                                         </div>
