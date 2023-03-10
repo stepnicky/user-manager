@@ -15,9 +15,4 @@ public class UserList extends HttpServlet {
         request.setAttribute("users", userDao.readAll());
         getServletContext().getRequestDispatcher("/users/list.jsp").forward(request, response);
     }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
 }
