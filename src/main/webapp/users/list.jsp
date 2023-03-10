@@ -96,9 +96,9 @@
                                                 ${user.email}
                                             </div>
                                             <div class="col-3">
-                                                <a href="/users/delete">Usuń </a>
+                                                <a href="/users/delete?id=${user.id}">Usuń </a>
                                                 <a href="/users/edit?id=${user.id}">Edytuj </a>
-                                                <a href="/users/show">Pokaż</a>
+                                                <a href="/users/show?id=${user.id}">Pokaż</a>
                                             </div>
                                         </div>
                                     </li>
